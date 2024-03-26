@@ -2,32 +2,32 @@
 
 int main_printscanf() {
 
-    // ÇÁ·ÎÁ§Æ® 
-    // °æÂû°üÀÌ ¹üÁËÀÚÀÚÀÇ Á¤º¸¸¦ ÀÔ¼ö
-    // ÀÌ¸§? ³ªÀÌ ¸ö¹«°Ô? Å°? ¹üÁË¸í?
+
+    // ê²½ì°°ê´€ì´ ë²”ì£„ììì˜ ì •ë³´ë¥¼ ì…ìˆ˜
+    // ì´ë¦„? ë‚˜ì´ ëª¸ë¬´ê²Œ? í‚¤? ë²”ì£„ëª…?
 
     char name[256];
-    printf("ÀÌ¸§ÀÌ ¹¹¿¡¿ä?");
+    printf("ì´ë¦„ì€?");
     scanf_s("%s", name, sizeof(name));
 
     int age;
-    printf("³ªÀÌ´Â?");
+    printf("ë‚˜ì´ëŠ”?");
     scanf_s("%d", &age);
 
     int weight;
-    printf("¸ö¹«°Ô´Â?");
+    printf("ëª¸ë¬´ê²ŒëŠ”?");
     scanf_s("%d", &weight);
 
     int height;
-    printf("Å°´Â?");
+    printf("í‚¤ëŠ”?");
     scanf_s("%d", &height);
 
     char crime[256];
-    printf("ÁË¸ñÀÌ ¹¹¿¡¿ä?");
+    printf("ì£„ëª©?");
     scanf_s("%s", crime, sizeof(crime));
 
 
-    printf("ÀÌ¸§: %s, ³ªÀÌ: %d, ¸ö¹«°Ô: %d, Å°: %d, ¹üÁË¸í: %s\n", name, age, weight, height, crime);
+    printf("ì´ë¦„: %s, ë‚˜ì´: %d, ëª¸ë¬´ê²Œ: %d, í‚¤: %d, ë²”ì£„ëª…: %s\n", name, age, weight, height, crime);
 
 
     return 0;
